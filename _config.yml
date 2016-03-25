@@ -1,0 +1,33 @@
+# Welcome to Amplified for Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: om12.net
+email: this.is.omartinez@gmail.com
+description: >
+  Thoughts from Omar Martinez
+logo: "/assets/images/logo.png"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://blog.om12.net" # the base hostname & protocol for your site
+paginate:	10 # The number of posts to show per page on your homepage
+
+name: 'Omar Martinez'
+bio: >
+  Front-End Developer with 12 years of professional experience. Love
+  all things Internet, Web Development, Art and Music. Amateur Stand-up comedian.
+author_image: "/assets/images/omartinez.jpg"
+twitter_username: omar12
+github_username:  omar12
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-paginate

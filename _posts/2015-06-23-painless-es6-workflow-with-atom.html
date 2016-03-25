@@ -1,0 +1,27 @@
+---
+layout: post
+title: Painless ES6 workflow with Atom
+date: 2015-06-23 05:50:07.000000000 -07:00
+excerpt: Let's make ES6 Development in Atom easier.
+type: post
+published: true
+status: publish
+categories:
+---
+<p><a href="https://om12net.files.wordpress.com/2015/06/atom-es61.jpg"><amp-img class="alignnone size-large wp-image-514" src="/assets/images/atom-es61.jpg" alt="ES6 on Atom with Babel" width="660" height="580"></amp-img></a></p>
+<p>If you watch the <a href="https://egghead.io/technologies/es6">egghead.io ES6</a> series videos, their IDE compiles ES6. For this post, I will walk you through on hw to achieve the same JavaScript ES6 workflow with Github's Atom Text Editor. Let's start!</p>
+<h4>1. Install the Babel CLI</h4>
+<p>Babel has become the defacto ES6 to ES5 transpiler. Install the <a href="https://babeljs.io/docs/usage/cli/">Babel CLI</a>:</p>
+<pre><code class="language-sh">$ npm install -g babel</code></pre>
+<h4>2. Download and install Atom</h4>
+<p>Download Atom from their homepage: <a href="https://atom.io/">https://atom.io/</a>.<br />
+<em>Protip</em>: Launch atom from the Command line. Atom will gather your system settings like the paths to your installed libraries and such.</p>
+<pre><code class="language-sh">$ atom</code></pre>
+<h4>3. Download the Babel language support package</h4>
+<p>The package will add ES6 support to Atom that includes code formatting and coloring, as well as transpiling. Go through the package settings and adjust them to your needs.<br />
+<a href="https://atom.io/packages/language-babel">https://atom.io/packages/language-babel</a></p>
+<h4>4. Download the script package</h4>
+<p>script is a neat package that lets you run your scripts directly from Atom.<br />
+<a href="https://atom.io/packages/script">https://atom.io/packages/script</a></p>
+<p>Once you have installed the packages, write your JavaScript and make sure you set your syntax to 'Babel ES6 JavaScript' by clicking on the bottom right of your window where it should say 'JavaScript'. To avoid any possible confusion, you can turn off the javascript-language package that comes with Atom.</p>
+<p>To run your code, press Command + I. This command will run the <em>script</em> package and you should see an output pane at the bottom.</p>

@@ -1,0 +1,46 @@
+---
+layout: post
+title: The Poor Mans git hosting
+date: 2013-08-06 00:00:00.000000000 -07:00
+type: post
+excerpt: How to use Dropbox as your "poor mans" private git host.
+published: true
+status: publish
+categories:
+---
+<p>This is a quick tip for all developers out there that want free private git hosting. You will need <a href="http://db.tt/hDWMdFB6">Dropbox</a> (Referral link) or <a href="https://drive.google.com">Google Drive</a>. For the purpose of this example, we will use Dropbox.</p>
+<h3>Step 1</h3>
+<p>Initialize git in your project and we will add and commit all your files.</p>
+
+{% highlight bash %}
+~/ $ cd your-project
+~/your-project $ git init
+~/your-project $ git add .
+~/your-project $ git commit -m "first commit"
+{% endhighlight %}
+
+<h3>Step 2</h3>
+<p>Change directory to dropbox. Create a directory named git if you don’t have one already:</p>
+{% highlight bash %}
+~/your-project $ cd ~/Dropbox/
+~/Dropbox/ $ mkdir git
+~/Dropbox/ $ cd git
+{% endhighlight %}
+
+<h3>Step 3</h3>
+<p>Initialize a bare git named your-project.git and change directory back to your project.</p>
+
+{% highlight bash %}
+~/Dropbox/git $ git init --bare your-project.git
+~/Dropbox/git $ cd ~/your-project
+{% endhighlight %}
+
+<h3>Step 4</h3>
+<p>Add the drop remote to your project. Instead of using the standard remote name of <strong>origin</strong>, use <strong>dropbox</strong>. This way it ensures if you ever want to add a second remote location, you can still name it <strong>origin</strong>.</p>
+{% highlight bash %}
+~/your-project $ git remote add dropbox ~/Dropbox/git/your-project.git
+~/your-project $ git push -u dropbox master
+{% endhighlight %}
+
+<p>Once the remote is set, we push the previously committed changes. And that is all, now your git repo will be in the cloud as a backup and for free.</p>
+<p>For Google Drive, the steps to follow are the same, except of using the Dropbox folder, you will use the Google Drive folder. The Google Drive sync app needs to be installed and downloaded.</p>

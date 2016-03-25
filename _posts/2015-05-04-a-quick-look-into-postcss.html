@@ -1,0 +1,18 @@
+---
+layout: post
+title: A Quick Look into PostCSS
+date: 2015-05-04 04:02:05.000000000 -07:00
+type: post
+published: true
+excerpt: A top level view of what PostCSS is.
+status: publish
+categories:
+---
+<p>After hearing some buzz about <a href="https://github.com/postcss/postcss">PostCSS</a> I decided to learn more about it.</p>
+<p>PostCSS is a CSS parser written in JavaScript. It's core its small, but its power comes from its modules. It gives you control on how your CSS will export.</p>
+<p><a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> its the most popular module for PostCSS. It parses your CSS and adds browser prefixes based on <a href="http://caniuse.com/">CanIUse</a> stats. Some available modules bring <a href="https://github.com/putaindecode/cssnext">CSS level 4 features</a>&nbsp;or&nbsp;<a href="https://github.com/postcss/postcss#fallbacks">fallback features</a> for older browsers. Other modules can <a href="https://github.com/postcss/postcss#optimizations">optimize your CSS</a> or bring preprocessor-like features. But there is also "for fun" features like using <a href="https://github.com/HashanP/postcss-spiffing">British English</a> in your CSS (I know you want to use colour). If none of the modules meet your needs, <a href="https://github.com/postcss/postcss#how-to-develop-postcss-plugin">you can write your own module</a>.</p>
+<p>PostCSS is not a replacement for your Preprocessors just yet. You have to decide early in development what PostCSS modules are going to improve your workflow. That is where you will get the most out of PostCSS.</p>
+<p>I created a simple <a href="https://github.com/Omar12/postcss-starter/">PostCSS starter kit</a> for you to tinker with. There are starting points to take a look, cssnext and preprocessor-like.</p>
+<p><a href="https://github.com/Omar12/postcss-starter/tree/cssnext">cssnext</a> provides the modules and a baseline CSS featuring future CSS features. The intent is for source file to work in future browsers. It uses the <a href="https://cssnext.github.io/">cssnext</a> module.</p>
+<p><a href="https://github.com/Omar12/postcss-starter/tree/preprocessor-like">Preprocessor-like</a> brings features adopted from Sass or Less to the CSS file.</p>
+<p>You can always test in the <a href="cssnext.github.io/cssnext-playground/">CSSNext Playground</a>. You can read more on David Clarks <a href="http://davidtheclark.com/excited-about-postcss/">post</a>.</p>
