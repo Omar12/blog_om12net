@@ -22,6 +22,7 @@ bio: >
 author_image: "/assets/images/omartinez.jpg"
 twitter_username: omar12
 github_username:  omar12
+github_repo: https://github.com/Omar12/blog_om12net
 
 # Build settings
 markdown: kramdown
@@ -31,3 +32,4 @@ kramdown:
 
 gems:
   - jekyll-paginate
+  - octopress-minify-html
