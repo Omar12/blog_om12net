@@ -4,9 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I'm Omar Martinez. I'm a Front-End Developer with 12 years of professional experience. I have been a designer, a project manager and even a video and audio editor. Front-End Development has been the role that has anchored my
-career. For the past 2 years, I have focused on working more with JavaScript.
+My name is Omar Martinez. I have 12 years of professional experience in web development, UI and UX and Project Management. I started my career in a digital advertising agency in South Florida. With the agency, I had the opportunity to work with the following clients: Bacardi, Howard Stern, Island Def Jam, Nintendo and Air Force to name a few. I'm currently in the pursuit in a Product Management role.
 
-I'm passionate about digital, from a spectators point of view. This blog is
-a collection from my Point of View. I will share my thoughts and feelings
-about various topics. I will be sharing what I learned with the hope that you will learn something new as well.
+I currently live in Seattle, WA. I was born and raised in Puerto Rico. Moved to South Florida in the early 2000's and lived there for 14 years.
+
+I'm passionate about the internet, technology, interactive experiences and music. The blog will talk about work, health and what I'm passionate about. If you find any facts that I mention wrong, or have any other suggestions, please feel free to edit the post.

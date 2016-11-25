@@ -17,8 +17,9 @@ paginate:	10 # The number of posts to show per page on your homepage
 
 name: 'Omar Martinez'
 bio: >
-  Front-End Developer with 12 years of professional experience. Love
-  all things Internet, Web Development, Art and Music. Amateur Stand-up comedian.
+  Front-End Developer with 12 years of professional experience. Currently pursuing
+  Product Management. Love all things Internet, Web Development, Design and Music. 
+  Amateur Stand-up comedian.
 author_image: "/assets/images/omartinez.jpg"
 twitter_username: omar12
 github_username:  omar12
